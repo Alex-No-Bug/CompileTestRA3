@@ -5,7 +5,7 @@
 #include "string"
 #include "vector"
 using namespace std;
-
+//aazzzz
 int main()
 {
 	char targetString[200] = { 0 };
@@ -24,7 +24,7 @@ int main()
 		{
 			seg[i] = targetString[frontPoint + i];
 		}
-		
+
 		if (frontPoint == 0)
 		{
 			frontPoint = backPoint;
@@ -40,7 +40,7 @@ int main()
 		for(int i = 0; i < 200; i++)
 			seg[i] = 0;
 		//将得到的字符串或属性值压栈
-		
+
 
 		if (!arrayOfKind[lengthOfArray])
 		{
